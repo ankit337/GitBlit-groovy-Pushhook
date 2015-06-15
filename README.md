@@ -1,7 +1,7 @@
 # GitBlit-groovy-Pushhook
 GitBlit groovy hook which push changed to other Gitblit server repo
 
-* copy above pushhook.groovy under groovy folder which gitblit installation path (eg: /root/softwares/apache-tomcat-6.0.32/webapps/gitblit/WEB-INF/data/groovy)
+* copy above `pushhook.groovy` under `groovy folder` which gitblit installation path (eg: `/root/softwares/apache-tomcat-6.0.32/webapps/gitblit/WEB-INF/data/groovy`)
 * Open Gitblit web interface
 * click on repository tab > select your repository 
 * Edit your repository >  select receive tab
