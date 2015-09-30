@@ -1,6 +1,10 @@
 # GitBlit-groovy-Pushhook
 GitBlit groovy hook which push changed to other Gitblit server repo
 
+## Requirements
+•	Two standalone Gitblit server
+•	Port `29418` is required to push data from `source` to `destination`
+
 * copy above `pushhook.groovy` under `groovy folder` which found under your gitblit installation directory (eg: `/root/softwares/apache-tomcat-6.0.32/webapps/gitblit/WEB-INF/data/groovy`)
 * Open Gitblit web interface
 * click on repository tab > select your repository 
